@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+    height:20px ;
+}
+body{
+    background-color:#111;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50% ;
+    transform: translate(-50%, -50%);
+}
+button{
+    width:130px;
+    height:35px;
+    color:#fff;
+    font-weight:500;
+    background-color:rgb(172,9,9);
+    transform: translatex(-10px);
+    cursor: pointer;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+input{
+    width:300px;
+    height:35px;
+    background-color:#fff;
+    padding:5px ;
+}
+i{
+    height:35px;
+    background-color:#fff;
+    cursor: pointer;
+}
